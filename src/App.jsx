@@ -61,7 +61,7 @@ function App() {
                 <tr key={patient.id}>
                   <td style={{ padding: '8px', border: '1px solid #ddd' }}>{patient.id}</td>
                   <td style={{ padding: '8px', border: '1px solid #ddd' }}>{patient.name}</td>
-                  <td style={{ padding: '8px', border: '1px solid #ddd' }}>{patient.}</td>
+                  <td style={{ padding: '8px', border: '1px solid #ddd' }}>{patient.gender}</td>
                   <td style={{ padding: '8px', border: '1px solid #ddd' }}>{patient.age}</td>
                 </tr>
               ))}
